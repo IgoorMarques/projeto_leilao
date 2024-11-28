@@ -1,0 +1,67 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+sdist/
+var/
+wheels/
+
+# Django
+*.log
+*.sqlite3
+db.sqlite3
+/static/
+media/
+
+# Pytest
+.pytest_cache/
+
+# Django migrations
+*/migrations/*
+!*/migrations/__init__.py
+
+# Environments
+.env
+.venv/
+venv/
+env/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Coverage reports
+.coverage
+.coverage.*
+
+# MySQL, PostgreSQL, SQLite database files
+*.sql
+*.db
+
+# VS Code
+.vscode/
+
+# Docker
+*.docker/
+
+# Cache files
+*.cache
+
+# Log files
+*.log
